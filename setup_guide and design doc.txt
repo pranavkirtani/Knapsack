@@ -1,0 +1,47 @@
+Setup Guide:
+
+You will need node.js version 4.0 or higher to run this code
+
+Running the code:
+To run main code use the command
+
+       node index
+
+To run the test use the command
+
+      mocha ./tests/index.js
+
+
+
+
+
+The problem solved here is Problem Two: Conference Track Management
+
+
+
+I have solved this using the 0/1 knapsack algorithm(with weight being same as benefits)
+
+All the main objects in code are written with getters and setters
+
+There is the Talk object which is used for the creation of talks
+
+There is the Sessions Object used for adding talks to sessions
+
+The track object used for adding sessions to tracks
+
+conference management object used for managing all the tracks
+
+data is configurable and is present in config.js file
+
+This is basically a node module that I have created that can be used by other induviduals as well 
+
+
+The code reads an input file named input.txt which is having all the data of the talks ,it then computes the output and prints it in command line
+
+you can see the screenshots of the same in screens folder provided with the code
+
+
+
+
+
+

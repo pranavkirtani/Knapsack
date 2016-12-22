@@ -1,0 +1,16 @@
+{
+  "name": "conference manager",
+  "version": "1.0.0",
+  "description": "conf manager ",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./tests/index.js",
+      "start":"node index"
+  },
+  "author": "pranav s kirtani",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^2.3.4",
+    "should": "^8.1.1"
+  }
+}
